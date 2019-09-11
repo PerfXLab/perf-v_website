@@ -4,23 +4,25 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content=' var _hmt = _hmt || []; (function () { var hm = document.createElement(&#34;script&#34;); hm.src = &#34;https://hm.baidu.com/hm.js?72da874e46df0db06656968a66188744&#34;; var s = document.getElementsByTagName(&#34;script&#34;)[0]; s.parentNode.insertBefore(hm, s); })();  USB，是英文通用串行总线的缩写，是一个外部总线标准，用于规范电脑与外部设备的连接和通讯。是应用在PC领域的接口技术,USB接口支持设备的即插即用和热插拔功能。
-Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0模块,实现USB数据传输。 '>
+<meta name='description' content='  var _hmt = _hmt || []; (function () { var hm = document.createElement(&#34;script&#34;); hm.src = &#34;https://hm.baidu.com/hm.js?72da874e46df0db06656968a66188744&#34;; var s = document.getElementsByTagName(&#34;script&#34;)[0]; s.parentNode.insertBefore(hm, s); })();  X-Core( https://github.com/PerfXLab/X-Core )是一款开源in-order 5级流水线 RISC-V 32-bit MCU级别处理器核，支持RV32IM指令集，主要用于个人学习、实验与教学。其中，Core部分代码参考PULP RI5CY，SoC部分外设和SDK来自蜂鸟E200。
+X-Core主要特点：
+ 5级流水线，RV32IM指令集，在FPGA平台的系统时钟达到50MHz 标准JTAG接口，支持GDB调试工具 ITIM：64KB （可配置），DTIM：64KB（可配置） 提供多种外设，包括IIC，UART，SPI，GPIO，PWM，XADC，TIMER等 QSPI接口访问其他片外存储 已在Perf-V开发板上提供完整SoC外设  性能测试  CoreMark : 2.52 CoreMark/MHz Dhrystone : 1.53 DMIPS/MHz  下载  Bitstream for Perf-V FPGA Board  支持  QQ群: 806854399 论坛: http://forum.perfv.org/  '>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Perf-V开发板新特性之USB2.0应用 • Perf-V'>
-<meta property='og:description' content=' var _hmt = _hmt || []; (function () { var hm = document.createElement(&#34;script&#34;); hm.src = &#34;https://hm.baidu.com/hm.js?72da874e46df0db06656968a66188744&#34;; var s = document.getElementsByTagName(&#34;script&#34;)[0]; s.parentNode.insertBefore(hm, s); })();  USB，是英文通用串行总线的缩写，是一个外部总线标准，用于规范电脑与外部设备的连接和通讯。是应用在PC领域的接口技术,USB接口支持设备的即插即用和热插拔功能。
-Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0模块,实现USB数据传输。 '>
-<meta property='og:url' content='http://perfv.org/cn/posts/post-2.html'>
+<meta property='og:title' content='X-Core: 一款支持Perf-V FPGA板卡的开源RV32IM MCU • Perf-V'>
+<meta property='og:description' content='  var _hmt = _hmt || []; (function () { var hm = document.createElement(&#34;script&#34;); hm.src = &#34;https://hm.baidu.com/hm.js?72da874e46df0db06656968a66188744&#34;; var s = document.getElementsByTagName(&#34;script&#34;)[0]; s.parentNode.insertBefore(hm, s); })();  X-Core( https://github.com/PerfXLab/X-Core )是一款开源in-order 5级流水线 RISC-V 32-bit MCU级别处理器核，支持RV32IM指令集，主要用于个人学习、实验与教学。其中，Core部分代码参考PULP RI5CY，SoC部分外设和SDK来自蜂鸟E200。
+X-Core主要特点：
+ 5级流水线，RV32IM指令集，在FPGA平台的系统时钟达到50MHz 标准JTAG接口，支持GDB调试工具 ITIM：64KB （可配置），DTIM：64KB（可配置） 提供多种外设，包括IIC，UART，SPI，GPIO，PWM，XADC，TIMER等 QSPI接口访问其他片外存储 已在Perf-V开发板上提供完整SoC外设  性能测试  CoreMark : 2.52 CoreMark/MHz Dhrystone : 1.53 DMIPS/MHz  下载  Bitstream for Perf-V FPGA Board  支持  QQ群: 806854399 论坛: http://forum.perfv.org/  '>
+<meta property='og:url' content='http://perfv.org/cn/posts/post-6.html'>
 <meta property='og:site_name' content='Perf-V'>
-<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:tag' content='USB'><meta property='article:tag' content='新特性'><meta property='article:published_time' content='2018-09-18T12:13:04&#43;08:00'/><meta property='article:modified_time' content='2018-09-18T12:13:04&#43;08:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:tag' content='x-core'><meta property='article:published_time' content='2019-09-11T21:13:11&#43;08:00'/><meta property='article:modified_time' content='2019-09-11T21:13:11&#43;08:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.54.0" />
 
-  <title>Perf-V开发板新特性之USB2.0应用 • Perf-V</title>
-  <link rel='canonical' href='http://perfv.org/cn/posts/post-2.html'>
+  <title>X-Core: 一款支持Perf-V FPGA板卡的开源RV32IM MCU • Perf-V</title>
+  <link rel='canonical' href='http://perfv.org/cn/posts/post-6.html'>
   
-  <link rel='alternate' hreflang='cn' href='http://perfv.org/cn/posts/post-2.html'><link rel='alternate' hreflang='en' href='http://perfv.org/posts/post-2.html'><link rel='alternate' hreflang='x-default' href='http://perfv.org/posts/post-2.html'>
+  <link rel='alternate' hreflang='cn' href='http://perfv.org/cn/posts/post-6.html'><link rel='alternate' hreflang='en' href='http://perfv.org/posts/post-6.html'><link rel='alternate' hreflang='x-default' href='http://perfv.org/posts/post-6.html'>
   <link rel='icon' href='../../favicon.ico'>
 <link rel='stylesheet' href='../../assets/css/main.4267b3fa.css'><link rel='stylesheet' href='../../css/custom.css'><style>
 :root{--color-accent:#ffcd00;}
@@ -138,7 +140,7 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Perf-V开发板新特性之USB2.0应用</h1>
+      <h1 class='title'>X-Core: 一款支持Perf-V FPGA板卡的开源RV32IM MCU</h1>
       
 
     </div>
@@ -153,7 +155,7 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
   
 </svg>
 <span class='screen-reader-text'>发布 </span>
-  <time class='entry-date' datetime='2018-09-18T12:13:04&#43;08:00'>2018, Sep 18</time>
+  <time class='entry-date' datetime='2019-09-11T21:13:11&#43;08:00'>2019, Sep 11</time>
 </span>
 
   
@@ -178,7 +180,9 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
   
 
   <div class='container entry-content'>
-  <script>
+  
+
+<script>
         var _hmt = _hmt || [];
         (function () {
             var hm = document.createElement("script");
@@ -188,12 +192,38 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
         })();
 </script>
 
-<p>USB，是英文通用串行总线的缩写，是一个外部总线标准，用于规范电脑与外部设备的连接和通讯。是应用在PC领域的接口技术,USB接口支持设备的即插即用和热插拔功能。</p>
+<p>X-Core( <a href="https://github.com/PerfXLab/X-Core" target="_blank">https://github.com/PerfXLab/X-Core</a> )是一款开源in-order 5级流水线 RISC-V 32-bit MCU级别处理器核，支持RV32IM指令集，主要用于个人学习、实验与教学。其中，Core部分代码参考<a href="https://github.com/pulp-platform/riscv" target="_blank">PULP RI5CY</a>，SoC部分外设和SDK来自<a href="https://github.com/SI-RISCV/e200_opensource" target="_blank">蜂鸟E200</a>。</p>
 
-<p>Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0模块,实现USB数据传输。
-<img src="../../images/blog/2_1.png" alt="Pic 1" /></p>
+<p>X-Core主要特点：</p>
 
-<p><img src="../../images/blog/2_2.png" width="100%"></p>
+<ul>
+<li>5级流水线，RV32IM指令集，在FPGA平台的系统时钟达到50MHz</li>
+<li>标准JTAG接口，支持GDB调试工具</li>
+<li>ITIM：64KB （可配置），DTIM：64KB（可配置）</li>
+<li>提供多种外设，包括IIC，UART，SPI，GPIO，PWM，XADC，TIMER等</li>
+<li>QSPI接口访问其他片外存储</li>
+<li>已在Perf-V开发板上提供完整SoC外设</li>
+</ul>
+
+<h2 id="性能测试">性能测试</h2>
+
+<ul>
+<li>CoreMark : 2.52 CoreMark/MHz</li>
+<li>Dhrystone : 1.53 DMIPS/MHz</li>
+</ul>
+
+<h2 id="下载">下载</h2>
+
+<ul>
+<li><a href="https://github.com/PerfXLab/X-Core/wiki/Bitstream" target="_blank">Bitstream for Perf-V FPGA Board</a></li>
+</ul>
+
+<h2 id="支持">支持</h2>
+
+<ul>
+<li>QQ群: 806854399</li>
+<li>论坛: <a href="http://forum.perfv.org/" target="_blank">http://forum.perfv.org/</a></li>
+</ul>
 
 </div>
 
@@ -205,7 +235,7 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
   <line x1="7" y1="7" x2="7" y2="7"/>
   
 </svg>
-<span class='screen-reader-text'>标签: </span><a class='tag' href='../../cn/tags/usb.html'>USB</a>, <a class='tag' href='../../cn/tags/%E6%96%B0%E7%89%B9%E6%80%A7.html'>新特性</a></div>
+<span class='screen-reader-text'>标签: </span><a class='tag' href='../../cn/tags/x-core.html'>x-core</a></div>
 
   </div>
 </footer>
@@ -215,7 +245,7 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='../../cn/posts/post-1.html'>
+      <a href='../../cn/posts/post-5.html'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -223,17 +253,7 @@ Perf-V开发板上，可以使用高速口转2.54毫米插针接口连接USB2.0�
   
 </svg>
  上一个</span>
-        <span class='screen-reader-text'>上一篇文章: </span>关于Perf-V的开篇</a>
-    </div><div class='next-entry sep-before'>
-      <a href='../../cn/posts/post-3.html'>
-        <span class='screen-reader-text'>下一篇文章: </span>Perf-V开发板新特性之千兆以太网应用<span aria-hidden='true'>下一个 <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
+        <span class='screen-reader-text'>上一篇文章: </span>Perf-V IDE发布</a>
     </div></div>
 </nav>
 

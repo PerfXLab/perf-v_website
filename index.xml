@@ -5,10 +5,21 @@
     <link>http://perfv.org/</link>
     <description>Recent content in Home on Perf-V</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Sep 2018 12:13:11 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2019 21:13:11 +0800</lastBuildDate>
     
 	<atom:link href="http://perfv.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>X-Core: an open source RV32IM MCU processor for Perf-V FPGA Board</title>
+      <link>http://perfv.org/posts/post-6.html</link>
+      <pubDate>Wed, 11 Sep 2019 21:13:11 +0800</pubDate>
+      
+      <guid>http://perfv.org/posts/post-6.html</guid>
+      <description>var _hmt = _hmt || []; (function () { var hm = document.createElement(&#34;script&#34;); hm.src = &#34;https://hm.baidu.com/hm.js?72da874e46df0db06656968a66188744&#34;; var s = document.getElementsByTagName(&#34;script&#34;)[0]; s.parentNode.insertBefore(hm, s); })();  X-Core ( https://github.com/PerfXLab/X-Core ) is an open source in-order 5-stage RISC-V 32-bit MCU processor. It supports RV32IM, mainly for RISC-V learning, teaching, and experiments. We use some core codes from PULP RI5CY, and partial SoC peripheral components and SDK from Hummingbird E200.
+X-Core:
+ 5-stage pipeline, RV32IM, 50MHz on FPGA board JTAG inferface, supports GDB ITIM: 64KB (configurable), DTIM: 64KB (configurable) QSPI interface for onboard flash Peripheral components, including IIC, UART, SPI, GPIO, PWM, XADC, TIMER.</description>
+    </item>
     
     <item>
       <title>The Release of Perf-V IDE</title>

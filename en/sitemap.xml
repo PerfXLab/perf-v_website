@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://perfv.org/posts/post-6.html</loc>
+    <lastmod>2019-09-11T21:13:11+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://perfv.org/cn/posts/post-6.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://perfv.org/posts/post-6.html"
+                />
+  </url>
+  
+  <url>
     <loc>http://perfv.org/posts/post-5.html</loc>
     <lastmod>2018-09-18T12:13:11+08:00</lastmod>
     <xhtml:link
@@ -165,7 +180,7 @@
   
   <url>
     <loc>http://perfv.org/</loc>
-    <lastmod>2018-09-18T12:13:11+08:00</lastmod>
+    <lastmod>2019-09-11T21:13:11+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -201,7 +216,7 @@
   
   <url>
     <loc>http://perfv.org/posts.html</loc>
-    <lastmod>2018-09-18T12:13:11+08:00</lastmod>
+    <lastmod>2019-09-11T21:13:11+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -289,6 +304,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://perfv.org/tags/perf-v.html"
+                />
+  </url>
+  
+  <url>
+    <loc>http://perfv.org/tags/x-core.html</loc>
+    <lastmod>2019-09-11T21:13:11+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://perfv.org/cn/tags/x-core.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://perfv.org/tags/x-core.html"
                 />
   </url>
   
